@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:all_in_one_image/src/all_image.dart';
+import 'package:all_in_one_image/src/all_in_one_image.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

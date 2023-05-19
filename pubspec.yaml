@@ -1,9 +1,8 @@
 name: all_in_one_image
 description: Image utilities for support all image types in one.
 
-author: EverDev888
 homepage: https://github.com/everdev888/all_in_one_image.git
-version: 1.0.0+1all
+version: 1.0.0
 
 environment:
   sdk: '>=2.12.0 <4.0.0'

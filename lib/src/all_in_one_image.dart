@@ -1,11 +1,9 @@
 import 'dart:async';
 import 'dart:io';
-import 'dart:convert';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:flutter_image/flutter_image.dart';
 import 'package:http/http.dart' as http;
 
 /// Loads an image file and returns a widget that can display it.
