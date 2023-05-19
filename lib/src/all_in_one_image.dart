@@ -41,7 +41,11 @@ Future<Widget?> loadImageFromUrl(String url) async {
   if (response.statusCode == 200) {
     final mimeType = response.headers['content-type'];
     final byteArray = response.bodyBytes;
-    return loadByteArray(byteArray, mimeType!);
+    if (mimeType == 'image/svg+xml') {
+      return SvgPicture.memory(byteArray);
+    } else {
+      return Image.memory(byteArray);
+    }
   } else {
     return null;
   }
